@@ -1,7 +1,13 @@
 import React from "react";
+import Calendar from "./components/Calendar";
 
 const App = () => {
-  return <div>Hello World!</div>;
+  return (
+    <div>
+      <h1>Weekly Calendar App</h1>
+      <Calendar />
+    </div>
+  );
 };
 
 export default App;
